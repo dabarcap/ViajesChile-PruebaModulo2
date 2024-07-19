@@ -39,8 +39,28 @@
         </nav>
         <!-- fin de nav -->
         <!-- inicio de carousel -->
-        <div>
-
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Primera imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Segunda imagen">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Tercera imagen">
+                </div>
+            </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
         </div>
         <!-- fin de carousel -->
     </header>
@@ -57,7 +77,28 @@
     <!-- fin destacados section -->
     <!-- inicio formulario -->
     <section id="formulario">
-
+        <div class="container mt-5">
+            <div class="seccion-formulario">
+                <h2 class="titulo-formulario">CONTACTO</h2>
+                <hr class="linea-horizontal">
+                <div class="seccion-campo">
+                    <label class="label-campo">Nombre</label>
+                    <br>
+                    <input type="text" class="input-campo" id="nombreContacto">
+                </div>
+                <div class="seccion-campo">
+                    <label class="label-campo">Asunto</label>
+                    <br>
+                    <input type="text" class="input-campo" id="asuntoContacto">
+                </div>
+                <div class="seccion-campo">
+                    <label class="label-campo">Mensaje</label>
+                    <br>
+                    <textarea class="textarea-campo" id="mensajeContacto"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary boton-enviar" id="botonEnviar">Enviar</button>
+            </div>
+        </div>
     </section>
     <!-- fin formulario -->
     <!-- inicio footer -->

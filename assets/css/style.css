@@ -51,7 +51,15 @@ header{
 }
 
 /* carousel */
+.carousel-item{
+    margin-top: 0px;
+    height: 700px;
+    width: 100%;
+}
 
+.carousel-item img{
+    height: 100%;
+}
 
 /* presentación section */
 #presentación{
@@ -68,7 +76,63 @@ header{
 /* formulario */
 #formulario{
     background-color: #000000;
-    height: 500px;
+    height: 675px;
+    padding: 20px;
+}
+
+.titulo-formulario{
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.linea-horizontal{
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.seccion-campo{
+    margin-bottom: 20px;
+}
+
+.label-campo {
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.input-campo{
+    width: 100%;
+    padding: 7px;
+}
+
+.textarea-campo{
+    width: 100%;
+    height: 200px;
+    padding: 7px;
+}
+
+.boton-enviar{
+    background-color: #0dcaf0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* footer */
