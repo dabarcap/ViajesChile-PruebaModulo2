@@ -36,7 +36,7 @@ header{
     gap: 5px;
 }
 
-.navbar ul {
+.navbar ul{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -250,5 +250,5 @@ header{
     }
   }
   .navbar-toggle.active + .navbar ul {
-    display: block;
+    display: box;
   }

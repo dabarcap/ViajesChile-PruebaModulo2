@@ -8,6 +8,7 @@ $(document).ready(function() {
     });
   });
 
+
   const nombre = document.querySelector('.Nombre');
   nombre.addEventListener('mouseleave', function() {
     const tooltip = document.querySelector('.tooltip');
